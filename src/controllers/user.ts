@@ -8,6 +8,11 @@ const tempfunction = () => {
   return userService.temp();
 }
 
+const userlist = () => {
+  return userService.userList();
+}
+
 module.exports = {
-  tempfunction
+  tempfunction,
+  userlist
 };
