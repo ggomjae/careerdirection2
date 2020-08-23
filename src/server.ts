@@ -1,6 +1,6 @@
 import express from 'express';
-
-//const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
+import 'reflect-metadata';
+const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 
 import { ApolloServer } from 'apollo-server-express';
 import { createServer } from 'http';
@@ -9,6 +9,17 @@ import * as typeDefs from './graphql/schemas/schema.graphql';
 import { makeExecutableSchema } from 'graphql-tools';
 const resolvers = require('./graphql/resolvers');
 import { GraphQLSchema } from 'graphql';
+//////
+// import { buildSchema } from 'type-graphql';
+// import { UserResolver } from './graphql/resolvers';
+
+// const tempschema = await buildSchema({
+//   resolvers: [UserResolver]
+// });
+/////
+//require('dotenv').config();
+const db = require('./models');
+db.sequelize.sync();
 
 const schema: GraphQLSchema = makeExecutableSchema({
   typeDefs,
