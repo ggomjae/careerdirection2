@@ -1,5 +1,5 @@
 const { users } = require('../models');
-
+import * as userType from '../types/usertype';
 
 const temp = () => {
   return "temp";
@@ -7,12 +7,12 @@ const temp = () => {
 
 // User List Method - temp Method
 const userList = () => {
-  return new Promise((resolve, reject) => {
+  return new Promise<userType.User[]>((resolve, reject) => {
     users.findAll({})
-      .then((users) => {
+      .then((users:userType.User[]) => {
         resolve(users);
       })
-      .catch((err) => {
+      .catch((err:Error) => {
         reject(err);
       });
   });
