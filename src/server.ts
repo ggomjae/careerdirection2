@@ -1,23 +1,16 @@
 import express from 'express';
 import 'reflect-metadata';
-const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
+import 'graphql-import-node';
 
 import { ApolloServer } from 'apollo-server-express';
 import { createServer } from 'http';
-import 'graphql-import-node';
-import * as typeDefs from './graphql/schemas/schema.graphql';
-import { makeExecutableSchema } from 'graphql-tools';
-const resolvers = require('./graphql/resolvers');
-import { GraphQLSchema } from 'graphql';
-//////
-// import { buildSchema } from 'type-graphql';
-// import { UserResolver } from './graphql/resolvers';
 
-// const tempschema = await buildSchema({
-//   resolvers: [UserResolver]
-// });
-/////
-//require('dotenv').config();
+import * as typeDefs from './graphql/schemas/schema.graphql';
+const resolvers = require('./graphql/resolvers');
+
+import { makeExecutableSchema } from 'graphql-tools';
+import { GraphQLSchema } from 'graphql';
+
 const db = require('./models');
 db.sequelize.sync();
 

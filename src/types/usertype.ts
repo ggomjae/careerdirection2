@@ -8,7 +8,18 @@ export interface User{
   updatedAt: Date
 }
 
-// 임시로
-export interface A{
-  uno:number
+export interface Token{
+  email: String
+  sub: String
+}
+
+export interface SignupInput{
+  name: String
+  email: String
+  password: String
+}
+
+export interface LoginInput{
+  email: String
+  password: String
 }
