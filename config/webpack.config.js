@@ -1,13 +1,13 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/App.ts',
+  entry: './src/App.ts', // 시작점 
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
+        test: /\.tsx?$/,    // .tsx 모든 파일 지정 test 객체로
+        use: 'ts-loader',   // 로더 설정 
+        exclude: /node_modules/    // node_modules는 제외시키기
       }
     ]
   },

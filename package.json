@@ -4,7 +4,7 @@
   "description": "careerdirection2 - TypeScript & GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch src --delay 1 --exec 'ts-node' src/App.ts",
+    "start": "nodemon --watch src --delay 1 --exec \"ts-node\" src/App.ts",
     "build": "webpack --config webpack.config.js"
   },
   "author": "ggomjae",
@@ -56,7 +56,7 @@
     "sequelize": "^6.3.4",
     "source-map-support": "^0.5.19",
     "type-graphql": "^1.0.0-rc.3",
-    "typeorm": "^0.2.25",
+    "typeorm": "^0.2.29",
     "winston": "^3.3.3"
   }
 }
