@@ -31,3 +31,9 @@ BackEnd User영역을 담당하였습니다. <br>
 <div>
     <img width ="500" src = "https://user-images.githubusercontent.com/43604493/94987132-d915fa80-059e-11eb-8502-e799f590d4ab.JPG">
 </div>
+
+# 끝맺음
+<br>
+
+> 완전한 코드는 Git 위의 코드 부분을 봐주세요. <br>
+> 개발 과정을 블로그에 올리면서 개발하고 있습니다. 링크 <https://blog.naver.com/ggomjae> <br>
