@@ -2,11 +2,11 @@ careerdirection2 🐻
 ============ 
 intern project +  individual project <br>
 Apollo-express, TypeORM, TypeGraphql, TypeScript <br>
+Js, Sequelize, Graphql 버전의 저장소 : https://github.com/ggomjae/careerdirection <br>
+============ 
 
-- 
 * Author 민경재[ggomjae] <br>
 * 개인 개발 블로그 링크 <https://blog.naver.com/ggomjae> <br>
-* Js, Sequelize, Graphql 버전의 저장소 : https://github.com/ggomjae/careerdirection <br>
 
 # 담당 영역 🔨
 BackEnd User영역을 담당하였습니다. <br>
