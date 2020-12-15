@@ -12,7 +12,17 @@ Apollo-express, TypeORM, TypeGraphql, TypeScript <br>
 BackEnd User영역을 담당하였습니다. <br>
 회원가입, 로그인, 비밀번호 변경, 속성 변경, 회원 삭제를 구현하였습니다.
 
-### User API
+REST API vs GraphQL ( TypeGraphQL )
+================================
+
+<div>
+    <img align="left" width="100%" src = "https://user-images.githubusercontent.com/43604493/102218958-24934000-3f22-11eb-8214-af436f39e84b.JPG">
+</div>
+
+```단일 엔드 포인트``` vs ```여러 엔드 포인트```  
+
+User API
+==============================
 
 <div>
     <img align="left" width="100%" src = "https://user-images.githubusercontent.com/43604493/94987126-d4e9dd00-059e-11eb-9ef3-65df6eaf8cf7.JPG">
