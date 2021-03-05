@@ -1,6 +1,5 @@
 careerdirection2 🐻
 ============ 
-intern project +  individual project <br>
 Apollo-express, TypeORM, TypeGraphql, TypeScript <br>
 ============ 
 
