@@ -5,6 +5,7 @@ Apollo-express, TypeORM, TypeGraphql, TypeScript <br>
 
 * Author 민경재[ggomjae] <br>
 * 개인 개발 블로그 링크 <https://blog.naver.com/ggomjae> <br>
+* 개인 개발 블로그 2 링크 <https://velog.io/@ggomjae> <br>
 * Js, Sequelize, Graphql 버전의 저장소 : https://github.com/ggomjae/careerdirection <br>
 
 # 담당 영역 🔨
